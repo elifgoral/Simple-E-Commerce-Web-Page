@@ -1,0 +1,73 @@
+.text-center{
+    text-align: center;
+}
+
+.heading-small{
+    font-size: 1.25rem;
+}
+
+.heading-medium{
+    font-size: 1.5rem;   
+}
+
+.heading-big{
+    font-size: 1.75rem;   
+}
+
+/* colors */
+.bg-dark-blue{
+    background: linear-gradient(to bottom, rgba(136,191,232,1) 0%,rgb(30, 115, 180) 100%);
+}
+.bg-light-blue{
+    background: #9bc7ef;
+}
+
+/* */
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.form-group{
+    padding: 0.25rem 0;
+}
+
+.form-group label{
+    display: block;
+}
+
+.form-control{
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    resize: both;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+.btn{
+    border: 2px solid black;
+    border-radius: 5px;
+    background: linear-gradient(to bottom, rgba(30, 115, 180,1) 0%,rgba(41,137,216,1) 50%,rgba(32,124,202,1) 51%,rgba(125,185,232,1) 100%);
+    color: white;
+    font-size: 1.5rem;
+    display: flex;
+    width: 10%;
+    justify-content: center;
+    padding: 0.5rem;
+    cursor: pointer;
+    margin: auto;  
+}
+
+.btn-list{
+    border: 1px solid white;
+    border-radius: 40px;
+    background: linear-gradient(to bottom, rgba(30, 115, 180,1) 0%,rgba(41,137,216,1) 50%,rgba(32,124,202,1) 51%,rgba(125,185,232,1) 100%);
+    color: white;
+    font-size: 1.25rem;
+    display: flex;
+    width: 40%;
+    justify-content: center;
+    cursor: pointer;
+    padding: 0.5rem;
+    margin: auto;  
+}
